@@ -1,0 +1,12 @@
+/Users/dannis/Documents/Repo/zhtech/DS/DS.Common/bin/Debug/net6.0/DS.Common.deps.json
+/Users/dannis/Documents/Repo/zhtech/DS/DS.Common/bin/Debug/net6.0/DS.Common.dll
+/Users/dannis/Documents/Repo/zhtech/DS/DS.Common/bin/Debug/net6.0/DS.Common.pdb
+/Users/dannis/Documents/Repo/zhtech/DS/DS.Common/obj/Debug/net6.0/DS.Common.csproj.AssemblyReference.cache
+/Users/dannis/Documents/Repo/zhtech/DS/DS.Common/obj/Debug/net6.0/DS.Common.GeneratedMSBuildEditorConfig.editorconfig
+/Users/dannis/Documents/Repo/zhtech/DS/DS.Common/obj/Debug/net6.0/DS.Common.AssemblyInfoInputs.cache
+/Users/dannis/Documents/Repo/zhtech/DS/DS.Common/obj/Debug/net6.0/DS.Common.AssemblyInfo.cs
+/Users/dannis/Documents/Repo/zhtech/DS/DS.Common/obj/Debug/net6.0/DS.Common.csproj.CoreCompileInputs.cache
+/Users/dannis/Documents/Repo/zhtech/DS/DS.Common/obj/Debug/net6.0/DS.Common.dll
+/Users/dannis/Documents/Repo/zhtech/DS/DS.Common/obj/Debug/net6.0/refint/DS.Common.dll
+/Users/dannis/Documents/Repo/zhtech/DS/DS.Common/obj/Debug/net6.0/DS.Common.pdb
+/Users/dannis/Documents/Repo/zhtech/DS/DS.Common/obj/Debug/net6.0/ref/DS.Common.dll

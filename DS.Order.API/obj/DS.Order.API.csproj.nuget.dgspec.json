@@ -1,0 +1,139 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/dannis/Documents/Repo/zhtech/DS/DS.Order.API/DS.Order.API.csproj": {}
+  },
+  "projects": {
+    "/Users/dannis/Documents/Repo/zhtech/DS/DS.Common/DS.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/dannis/Documents/Repo/zhtech/DS/DS.Common/DS.Common.csproj",
+        "projectName": "DS.Common",
+        "projectPath": "/Users/dannis/Documents/Repo/zhtech/DS/DS.Common/DS.Common.csproj",
+        "packagesPath": "/Users/dannis/.nuget/packages/",
+        "outputPath": "/Users/dannis/Documents/Repo/zhtech/DS/DS.Common/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/dannis/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/dannis/Documents/Repo/zhtech/DS/DS.Order.API/DS.Order.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/dannis/Documents/Repo/zhtech/DS/DS.Order.API/DS.Order.API.csproj",
+        "projectName": "DS.Order.API",
+        "projectPath": "/Users/dannis/Documents/Repo/zhtech/DS/DS.Order.API/DS.Order.API.csproj",
+        "packagesPath": "/Users/dannis/.nuget/packages/",
+        "outputPath": "/Users/dannis/Documents/Repo/zhtech/DS/DS.Order.API/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/dannis/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/dannis/Documents/Repo/zhtech/DS/DS.Common/DS.Common.csproj": {
+                "projectPath": "/Users/dannis/Documents/Repo/zhtech/DS/DS.Common/DS.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

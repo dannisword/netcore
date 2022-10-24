@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "Zi/QWOXlLOJ27EsWIdQYPc91X0d9uEsVrtHfzLZSk7s=",
+  "Source": "DS.Order.API",
+  "BasePath": "_content/DS.Order.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
