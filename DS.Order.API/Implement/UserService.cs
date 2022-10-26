@@ -42,9 +42,12 @@ public class UserService : BaseService, IUserService
         //Expression<Func<UserAccount, bool>> expression = (p) => p.UserID == user.UserID;
         //var data = this.UnitOfWork.Repository<UserAccount>().Find(expression);
 
+        //this.UnitOfWork.BeginTransaction();
+
         var predicate = PredicateBuilder.True<UserAccount>();
-        predicate = predicate.And(p => p.IsActive == true);
         predicate = predicate.And(p => p.UserID == user.UserID);
+        predicate = predicate.And(p => p.IsActive == true);
+
         var data = this.UnitOfWork.Repository<UserAccount>().Find(predicate);
         // Add
         try
